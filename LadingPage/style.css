@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+nav {
+    display: flex;
+    margin-top: 1.5rem;
+    margin-left: 0;
+    gap: 10rem;
+    margin-left: 100px;
+}
+
+ nav .logo {
+    max-width: 50px; 
+    max-height: 50px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.menu {
+    display: flex;
+    flex-direction: row;
+    gap: 4rem;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-left: 60px;
+    font-weight: 600;
+}
+
+nav .final {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    gap: 2rem;
+    cursor: pointer;
+    margin-left: 70px;
+}
+
+.pesquisar {
+    background-color: rgb(175, 175, 175);;
+    border: none;
+    cursor: pointer;
+    margin-left: 5px;
+
+}
+
+input {
+    border-radius: 200px;
+    width: 200px;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    padding: 1rem;
+}
+
+.fa-bag-shopping {
+      font-size: 25px;
+      margin-top: 3px;
+}
+
+main {
+    display: flex;
+}
+
+.direita {
+    display: flex;
+    flex-direction: column;
+    margin-top: 155px;
+    margin-left: 60px;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+.Shop {
+    background-color: rgb(22, 22, 22);
+    color: aliceblue;
+    width: 150px;
+    height: 40px;
+    border-radius: 200px;
+    font-weight: 600;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+section.imagens .folha {
+    position: absolute;
+    height: 100vh;
+    width: 37%;
+    top: 0;
+    left: 63%;
+    background: rgb(175, 175, 175);
+    clip-path:polygon(0% 0%, 100% 0%, 100% 100%, 0% 100%); /* Coordenadas para um quadrado */
+    z-index: -1; /*deixa atras a posiação */
+}
+
+.headfone {
+    margin-left: 60px;
+    margin-top: 50px;
+    width: 470px;
+    height:490px;
+
+}
+
+.linha {
+    text-decoration: none; 
+    border-bottom: 2px solid #000; 
+    padding-bottom: 2px;
+}
+
